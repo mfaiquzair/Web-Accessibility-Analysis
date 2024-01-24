@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Define the URL of the page to scrape
+# Define the URL of the page to scrape 
 url = 'https://www.ump.edu.my/en'
 
 # Send a GET request to the URL and store the response
