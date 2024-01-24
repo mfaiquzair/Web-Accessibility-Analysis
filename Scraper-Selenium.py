@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 from csv import writer
 
-# initialize web driver and service
+# initialize web driver and service 
 service = Service('./chromedriver')
 driver = webdriver.Chrome(service=service)
 
