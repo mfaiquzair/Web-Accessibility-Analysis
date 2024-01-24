@@ -2,7 +2,7 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 
-# Define the URL of the page to scrape
+# Define the URL of the page to scrape  
 url1 = 'https://www.ump.edu.my/en'
 url2 = 'https://www.ump.edu.my/en?page=1'
 
