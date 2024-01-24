@@ -12,7 +12,7 @@ driver = webdriver.Chrome(service=service)
 # navigate to the login page
 driver.get("https://kalam.ump.edu.my/login/index.php")
 
-# input username and password and click login button
+# input username and password and click login button 
 username = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='username']")))
 password = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='password']")))
 username.send_keys("null")
