@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from csv import writer
 from lighthouse import *
 
+#Try login using OOP method
 
 class KalamScraper:
     def __init__(self, username, password):
