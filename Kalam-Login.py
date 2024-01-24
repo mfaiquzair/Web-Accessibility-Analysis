@@ -7,7 +7,7 @@ from lighthouse import *
 import time
 
 
-#2. Create a session
+#2. Create a session 
 session_requests = requests.session()
 
 
